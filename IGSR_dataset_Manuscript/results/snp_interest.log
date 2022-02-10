@@ -1,0 +1,31 @@
+PLINK v1.90b4.6 64-bit (15 Aug 2017)
+Options in effect:
+  --extract snp_interest
+  --file splited_by_chr_AC2/1KG_dataset_27022019.GRCh38.phased_AC2_chr7_2000001_2250000
+  --out snp_interest
+  --recode
+
+Hostname: cdr195.int.cedar.computecanada.ca
+Working directory: /scratch/correard/1kg_WGS_2021_06
+Start time: Fri Jun 11 17:29:54 2021
+
+Random number seed: 1623457794
+128841 MB RAM detected; reserving 64420 MB for main workspace.
+Scanning .ped file...
+Possibly irregular .ped line.  Restarting scan, assuming multichar alleles.
+.ped scan complete (for binary autoconversion).
+Performing single-pass .bed write (250000 variants, 2548 people).
+--file: snp_interest-temporary.bed + snp_interest-temporary.bim +
+snp_interest-temporary.fam written.
+250000 variants loaded from .bim file.
+2548 people (0 males, 0 females, 2548 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to snp_interest.nosex .
+--extract: 1 variant remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2548 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+1 variant and 2548 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to snp_interest.ped + snp_interest.map ... done.
+
+End time: Fri Jun 11 17:31:28 2021

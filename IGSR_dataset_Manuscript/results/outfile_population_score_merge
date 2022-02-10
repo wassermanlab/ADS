@@ -1,0 +1,344 @@
+[1] "number of individual per continental label"
+  pop2   n
+1  AFR 671
+2  AMR 348
+3  EAS 515
+4  EUR 522
+5  SAS 492
+[1] "number of individual per population label"
+   pop1   n
+1   ACB  97
+2   ASW  61
+3   BEB  86
+4   CDX 100
+5   CEU  99
+6   CHB 106
+7   CHS 105
+8   CLM  95
+9   ESN 100
+10  FIN 105
+11  GBR 100
+12  GIH 106
+13  GWD 113
+14  IBS 107
+15  ITU 102
+16  JPT 105
+17  KHV  99
+18  LWK 103
+19  MSL  90
+20  MXL  64
+21  PEL  85
+22  PJL  96
+23  PUR 104
+24  STU 102
+25  TSI 111
+26  YRI 107
+[1] "number of individual per mixed population label"
+              pop3   n
+1              ACB  97
+2              ASW  61
+3              BEB  86
+4          CDX/KHV 199
+5      CEU/GBR/IBS 306
+6          CHS/CHB 211
+7  CLM/MXL/PEL/PUR 348
+8              ESN 100
+9              FIN 105
+10             GWD 113
+11             JPT 105
+12             LWK 103
+13             MSL  90
+14 PJL/ITU/STU/GIH 406
+15             TSI 111
+16             YRI 107
+[1] "number of lines in subset_table_score"
+[1] 45183262
+[1] "Row with higher population score"
+         chr_i                   snp_i    pos_i     V4 V5 n_ind_hom1_i
+11575277     4 4:49149627[b37]T,TTGGGG 49149627 TTGGGG  T            6
+         n_ind_hom2_i n_ind_het_i n_ind_mis_i     MAF_i population_score
+11575277            1        2541           0 0.4990188        0.6541533
+         length_unique_pop1_i length_unique_pop2_i length_unique_pop3_i
+11575277                   26                    5                   16
+[1] "Table with number of variant per length_unique_pop2_i"
+  length_unique_pop2_i        n
+1                    1 18871497
+2                    2 11336221
+3                    3  3945055
+4                    4  2484962
+5                    5  8545527
+[1] "Table with number of variant per length_unique_pop1_i"
+   length_unique_pop1_i       n
+1                     1 5012351
+2                     2 8140806
+3                     3 4414364
+4                     4 3237849
+5                     5 2833054
+6                     6 2180175
+7                     7 2176683
+8                     8 2176001
+9                     9 1916300
+10                   10 1422909
+11                   11  938005
+12                   12  593812
+13                   13  414151
+14                   14  340611
+15                   15  309320
+16                   16  289479
+17                   17  258139
+18                   18  237311
+19                   19  241571
+20                   20  281754
+21                   21  456997
+22                   22  410438
+23                   23  342993
+24                   24  320022
+25                   25  457729
+26                   26 5780438
+[1] "Table with number of variant per length_unique_pop3_i"
+   length_unique_pop3_i       n
+1                     1 7203642
+2                     2 8977117
+3                     3 4310103
+4                     4 2828136
+5                     5 2317256
+6                     6 2149185
+7                     7 2334808
+8                     8 3978290
+9                     9 1550372
+10                   10  654750
+11                   11  470691
+12                   12  456184
+13                   13  642636
+14                   14  566002
+15                   15  632650
+16                   16 6111440
+[1] "Number of rows with a population score between 0.09 and 0.11"
+[1] 1961965
+[1] "Number of rows with a population score between 0.09 and 0.11 and a label score of 1"
+[1] 1228584
+[1] "Number of rows with a population score between 0.09 and 0.11 and a label score of 2"
+[1] 678198
+[1] "Number of rows with a population score between 0.09 and 0.11 and a label score of 3"
+[1] 55136
+[1] "Number of rows with a population score between 0.09 and 0.11 and a label score of 4"
+[1] 47
+[1] "Number of rows with a population score between 0.09 and 0.11 and a label score of 5"
+[1] 0
+
+	Shapiro-Wilk normality test
+
+data:  mean_median_array_pop1$length_pop1_interest
+W = 0.9583, p-value = 0.3592
+
+
+	Shapiro-Wilk normality test
+
+data:  mean_median_array_pop1$Mean_pop_score
+W = 0.97948, p-value = 0.8626
+
+
+	Shapiro-Wilk normality test
+
+data:  mean_median_array_pop1$Median_pop_score
+W = 0.98384, p-value = 0.9432
+
+[1] "Pearson correlation between the mean population score and the label score (n=26)"
+
+	Pearson's product-moment correlation
+
+data:  mean_median_array_pop1$length_pop1_interest and mean_median_array_pop1$Mean_pop_score
+t = 24.102, df = 24, p-value < 0.00000000000000022
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.9551915 0.9911016
+sample estimates:
+      cor 
+0.9799621 
+
+[1] "Pearson correlation between the median population score and the label score (n=26)"
+
+	Pearson's product-moment correlation
+
+data:  mean_median_array_pop1$length_pop1_interest and mean_median_array_pop1$Median_pop_score
+t = 24.535, df = 24, p-value < 0.00000000000000022
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.9566943 0.9914053
+sample estimates:
+      cor 
+0.9806424 
+
+
+	Shapiro-Wilk normality test
+
+data:  mean_median_array_pop2$length_pop2_interest
+W = 0.98676, p-value = 0.9672
+
+
+	Shapiro-Wilk normality test
+
+data:  mean_median_array_pop2$Mean_pop_score
+W = 0.98472, p-value = 0.9582
+
+
+	Shapiro-Wilk normality test
+
+data:  mean_median_array_pop2$Median_pop_score
+W = 0.97793, p-value = 0.9232
+
+[1] "Pearson correlation between the mean population score and the label score (n=5)"
+
+	Pearson's product-moment correlation
+
+data:  mean_median_array_pop2$length_pop2_interest and mean_median_array_pop2$Mean_pop_score
+t = 8.9334, df = 3, p-value = 0.002959
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.7429384 0.9988466
+sample estimates:
+      cor 
+0.9817183 
+
+[1] "Pearson correlation between the median population score and the label score (n=5)"
+
+	Pearson's product-moment correlation
+
+data:  mean_median_array_pop2$length_pop2_interest and mean_median_array_pop2$Median_pop_score
+t = 6.7669, df = 3, p-value = 0.006594
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.5953880 0.9980175
+sample estimates:
+     cor 
+0.968769 
+
+
+	Pearson's product-moment correlation
+
+data:  mean_median_array_pop3$length_pop3_interest and mean_median_array_pop3$Mean_pop_score
+t = 20.697, df = 14, p-value = 0.000000000006757
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.9534188 0.9945931
+sample estimates:
+      cor 
+0.9840483 
+
+
+	Pearson's product-moment correlation
+
+data:  mean_median_array_pop3$length_pop3_interest and mean_median_array_pop3$Median_pop_score
+t = 19.869, df = 14, p-value = 0.00000000001175
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.9496256 0.9941428
+sample estimates:
+      cor 
+0.9827273 
+
+[1] "Number of variants per bin for supp data"
+           bin        n
+1     [0,0.01] 31795321
+2  (0.01,0.02]  2899058
+3  (0.02,0.03]  1369198
+4  (0.03,0.04]   849808
+5  (0.04,0.05]   611100
+6  (0.05,0.06]   475106
+7  (0.06,0.07]   394132
+8  (0.07,0.08]   342104
+9  (0.08,0.09]   309531
+10  (0.09,0.1]   280330
+11  (0.1,0.11]   261468
+12 (0.11,0.12]   242084
+13 (0.12,0.13]   231004
+14 (0.13,0.14]   216293
+15 (0.14,0.15]   206049
+16 (0.15,0.16]   194561
+17 (0.16,0.17]   188003
+18 (0.17,0.18]   183575
+19 (0.18,0.19]   171071
+20  (0.19,0.2]   169974
+21  (0.2,0.21]   166303
+22 (0.21,0.22]   159770
+23 (0.22,0.23]   153022
+24 (0.23,0.24]   149601
+25 (0.24,0.25]   145685
+26 (0.25,0.26]   139566
+27 (0.26,0.27]   138049
+28 (0.27,0.28]   135096
+29 (0.28,0.29]   135004
+30  (0.29,0.3]   131117
+31  (0.3,0.31]   130282
+32 (0.31,0.32]   128276
+33 (0.32,0.33]   125773
+34 (0.33,0.34]   123882
+35 (0.34,0.35]   120683
+36 (0.35,0.36]   120781
+37 (0.36,0.37]   118947
+38 (0.37,0.38]   117521
+39 (0.38,0.39]   115858
+40  (0.39,0.4]   116930
+41  (0.4,0.41]   114536
+42 (0.41,0.42]   115235
+43 (0.42,0.43]   112144
+44 (0.43,0.44]   112023
+45 (0.44,0.45]   111693
+46 (0.45,0.46]   112979
+47 (0.46,0.47]   113986
+48 (0.47,0.48]   110721
+49 (0.48,0.49]   109767
+50  (0.49,0.5]   108262
+[1] "Number of variants per bin for supp data"
+                bin        n
+1  [-0.0005,0.0005]  8289572
+2   (0.0005,0.0015] 11498871
+3   (0.0015,0.0025]  3875941
+4   (0.0025,0.0035]  2263416
+5   (0.0035,0.0045]  1555669
+6   (0.0045,0.0055]  1369976
+7   (0.0055,0.0065]   884350
+8   (0.0065,0.0075]   729693
+9   (0.0075,0.0085]   611307
+10  (0.0085,0.0095]   527265
+11  (0.0095,0.0105]   457672
+12  (0.0105,0.0115]   404278
+13  (0.0115,0.0125]   361957
+14  (0.0125,0.0135]   324661
+15  (0.0135,0.0145]   293720
+16  (0.0145,0.0155]   267330
+17  (0.0155,0.0165]   292795
+18  (0.0165,0.0175]   221491
+19  (0.0175,0.0185]   202727
+20  (0.0185,0.0195]   190497
+21  (0.0195,0.0205]   176127
+22  (0.0205,0.0215]   163925
+23  (0.0215,0.0225]   157367
+24  (0.0225,0.0235]   149060
+25  (0.0235,0.0245]   140159
+26  (0.0245,0.0255]   130846
+27  (0.0255,0.0265]   148125
+28  (0.0265,0.0275]   115074
+29  (0.0275,0.0285]   109831
+30  (0.0285,0.0295]   107763
+31  (0.0295,0.0305]   103583
+32  (0.0305,0.0315]    96850
+33  (0.0315,0.0325]    92798
+34  (0.0325,0.0335]    89100
+35  (0.0335,0.0345]    85532
+36  (0.0345,0.0355]    82020
+37  (0.0355,0.0365]    94466
+38  (0.0365,0.0375]    75037
+39  (0.0375,0.0385]    74444
+40  (0.0385,0.0395]    70506
+41  (0.0395,0.0405]    68420
+42  (0.0405,0.0415]    67377
+43  (0.0415,0.0425]    65411
+44  (0.0425,0.0435]    63893
+45  (0.0435,0.0445]    61335
+46  (0.0445,0.0455]    58881
+47  (0.0455,0.0465]    57367
+48  (0.0465,0.0475]    66026
+49  (0.0475,0.0485]    54154
+50  (0.0485,0.0495]    54429
+51  (0.0495,0.0505]    21391

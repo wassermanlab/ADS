@@ -1,0 +1,32 @@
+PLINK v1.90b4.6 64-bit (15 Aug 2017)
+Options in effect:
+  --file 1KG_dataset_27022019.GRCh38.phased_thin0.05
+  --out 1KG_dataset_27022019.GRCh38.phased_thin0.05_PCA
+  --pca 15
+
+Hostname: cdr143.int.cedar.computecanada.ca
+Working directory: /scratch/correard/1kg_WGS_2021_05
+Start time: Thu May  6 13:28:28 2021
+
+Random number seed: 1620332908
+128841 MB RAM detected; reserving 64420 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (3904152 variants, 2548 people).
+--file: 1KG_dataset_27022019.GRCh38.phased_thin0.05_PCA-temporary.bed +
+1KG_dataset_27022019.GRCh38.phased_thin0.05_PCA-temporary.bim +
+1KG_dataset_27022019.GRCh38.phased_thin0.05_PCA-temporary.fam written.
+3904152 variants loaded from .bim file.
+2548 people (0 males, 0 females, 2548 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+1KG_dataset_27022019.GRCh38.phased_thin0.05_PCA.nosex .
+Using up to 31 threads (change this with --threads).
+Before main variant filters, 2548 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+3904152 variants and 2548 people pass filters and QC.
+Note: No phenotypes present.
+Relationship matrix calculation complete.
+--pca: Results saved to
+1KG_dataset_27022019.GRCh38.phased_thin0.05_PCA.eigenval and
+1KG_dataset_27022019.GRCh38.phased_thin0.05_PCA.eigenvec .
+
+End time: Thu May  6 13:48:16 2021
