@@ -1,4 +1,4 @@
-# ADS_nextflow
+# Allele Dispersion Score (ADS)
 
 ## Goal of the ADS
 
