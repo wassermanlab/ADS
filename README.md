@@ -56,14 +56,14 @@ These scripts were processed on  [Compute Canada](https://www.computecanada.ca) 
 
 The files resulting from the ADS calculation on the IGSR dataset are available in the "IGSR_dataset_Manuscript/results/" folder. Some intermediate files were too big to be included in the repo, please, contact us if you need them. 
 
-The final dataset with the ADS for each variant is splitted by chr, under the name "subset_table_score_1KG_dataset_27022019.GRCh38.phased_chr{chr_numer}".
+The final dataset with the ADS for each variant is splitted by chr, under the name "subset_table_score_1KG_dataset_27022019.GRCh38.phased_chr{chr_number}".
 
 
 
 
 ## Contact
 
-For any question or comment about the tool, feel free to contact the first author of the manuscript : Solenne Correard : scorreard@cmmt.ubc.ca
+For any question or comment about the tool, feel free to contact us.
 
 ## Citation
 
