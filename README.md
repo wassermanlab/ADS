@@ -22,7 +22,7 @@ You can refer to the manuscript for more details.
 
 ## Data and code availability
 
-###To calculate the ADS with your own dataset
+### To calculate the ADS with your own dataset
 
 To generate the ADS for your own dataset, you can use the two script available in this folder :
 1_ADS.sh (including PLINK steps) and R_1_ADS.R (including UMAP generation and the ADS calculation)
@@ -33,7 +33,7 @@ The current scripts are optimized to use on a server with a SLURM manager. A Nex
 
 
 
-###To reproduce the mauscript results
+### To reproduce the mauscript results
 
 The dataset used to create and test the ADS is available on the IGSR website : [1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/release/20190312_biallelic_SNV_and_INDEL/).
 
@@ -52,7 +52,7 @@ These scripts were processed on  [Compute Canada](https://www.computecanada.ca) 
 
 
 
-###Manuscript results
+### Manuscript results
 
 The files resulting from the ADS calculation on the IGSR dataset are available in the "IGSR_dataset_Manuscript/results/" folder. Some intermediate files were too big to be included in the repo, please, contact us if you need them. 
 
@@ -61,11 +61,11 @@ The final dataset with the ADS for each variant is splitted by chr, under the na
 
 
 
-##Contact
+## Contact
 
 For any question or comment about the tool, feel free to contact the first author of the manuscript : Solenne Correard : scorreard@cmmt.ubc.ca
 
-##Citation
+## Citation
 
 If you are generating the ADS for you dataset, please, cite our manuscript :
 [To add]
